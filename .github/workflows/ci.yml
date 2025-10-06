@@ -2,13 +2,13 @@ name: Pipeline de testes Python
 
 on:
   push:
-    branches:["main"]
+    branches: ["main"]
   pull_request:
-    branches:["main"]
+    branches: ["main"]
 
 jobs:
   build:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout do código
